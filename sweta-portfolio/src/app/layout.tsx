@@ -1,15 +1,17 @@
-import '../styles/globals.css'
-import { ReactNode } from 'react'
+import LayoutWrapper from "../components/LayoutWrapper";
 
 export const metadata = {
-  title: 'Sweta Mishra - Portfolio',
-  description: 'The story of Neelu, the dreamer from Devnathpur 🌿',
-}
+  title: 'Sweta Mishra | Full Stack Developer',
+  description: 'Portfolio of Sweta Mishra — Full Stack Developer, Creative Technologist, and Mentor.',
+  keywords: ['Sweta Mishra', 'Full Stack Developer', 'React', 'Spring Boot', 'OpenFin', 'Mentor', 'Creative Technologist'],
+};
 
-export default function RootLayout({ children }: { children: ReactNode }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <LayoutWrapper>{children}</LayoutWrapper>
+      </body>
     </html>
-  )
+  );
 }

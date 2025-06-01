@@ -1,6 +1,7 @@
 export default function Hero() {
   return (
-    <section className="py-20 px-4 md:px-20 text-center bg-white">
+<section className="py-20 px-4 md:px-20 text-center bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+
       <h1 className="text-5xl font-bold text-brand-pink mb-4">
         Sweta Mishra
       </h1>
